@@ -27,10 +27,11 @@ Plug 'tpope/vim-commentary'
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
-"map \r <Action>(ReformatCode)
+map <leader>r <Action>(Run)
 
 "" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
+map <leader>d <Action>(Debug)
 
-"" Map \b to toggle the breakpoint on the current line
-"map \b <Action>(ToggleLineBreakpoint)
+"" Map <leader>b to toggle the breakpoint on the current line
+map <leader>b <Action>(ToggleLineBreakpoint)
+set ideajoin
