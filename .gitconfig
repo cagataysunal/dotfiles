@@ -1,7 +1,5 @@
 [user]
 	name = Çağatay Sunal
 	email = cagataysunal9199@gmail.com
-[core]
-	autocrlf = false
 [init]
 	defaultBranch = main
