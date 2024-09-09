@@ -1,2 +1,0 @@
-nnoremap ı i
-
