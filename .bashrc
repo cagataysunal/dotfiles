@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:/usr/local/go/bin
+alias vi='nvim'
+alias vim='nvim'
