@@ -1,5 +1,13 @@
+" plugins
+call plug#begin()
+
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+call plug#end()
+
 " usual no-brainers
 syntax on
+colorscheme dracula
 set number
 set relativenumber
 set nocompatible
@@ -22,3 +30,4 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-H> <C-W><C-H>
+
