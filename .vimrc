@@ -2,6 +2,7 @@
 call plug#begin()
 
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
@@ -31,3 +32,5 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-H> <C-W><C-H>
 
+" turn off highlights after hitting ESC
+nnoremap <ESC> :nohlsearch<CR>
