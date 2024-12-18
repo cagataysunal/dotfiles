@@ -1,30 +1,16 @@
-" plugins
-call plug#begin()
-
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
-call plug#end()
-
+set nocompatible
 " usual no-brainers
 syntax on
-colorscheme dracula
+set scrolloff=3
 set number
-set relativenumber
-set nocompatible
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set clipboard=unnamedplus
-
-" undofile for persistent undo
-set undofile
 
 " indentation settings
 filetype plugin indent on
 set autoindent
 set smartindent
-autocmd FileType go setlocal noexpandtab tabstop=4 shiftwidth=4
 
 " easier window navigation
 nnoremap <C-L> <C-W><C-L>
