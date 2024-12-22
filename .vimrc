@@ -1,9 +1,9 @@
-set nocompatible
-syntax on
 set number
-set tabstop=4
-set shiftwidth=4
-set expandtab
-filetype plugin indent on
-set autoindent
-set smartindent
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+call plug#end()
+colorscheme dracula
